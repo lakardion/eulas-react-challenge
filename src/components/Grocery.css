@@ -1,0 +1,13 @@
+.grocery-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.grocery-product-name {
+  flex-basis: 30%;
+}

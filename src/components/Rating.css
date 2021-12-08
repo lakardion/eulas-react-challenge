@@ -1,0 +1,14 @@
+.active {
+  color: red;
+  font-weight: 700;
+}
+.star-element:hover {
+  color: hsl(0, 100%, 80%);
+  cursor: pointer;
+}
+
+.star-container {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem;
+}

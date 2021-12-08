@@ -1,0 +1,48 @@
+.item-list-card {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.focusable-list-item {
+  list-style: none;
+}
+
+.item-navigation-avatar {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-navigation-avatar > img {
+  object-fit: contain;
+}
+
+.item-navigation-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item-navigation-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-navigation-field div {
+  text-align: right;
+}
+
+.item-navigation-field > label {
+  flex-basis: 40%;
+  font-weight: 500;
+}
+
+.item-focused {
+  background: hsl(206, 53%, 70%);
+}

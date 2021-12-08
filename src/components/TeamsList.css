@@ -1,0 +1,21 @@
+.btn-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 1rem;
+}
+.teams {
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+}
+.team-container {
+  display: flex;
+  gap: 2rem;
+  margin-block: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.team-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
